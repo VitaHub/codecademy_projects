@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+}
+
+body {			background:url(https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg) no-repeat;
+  background-size:cover;
+}
+
+/*Header*/
+.header .container {
+	border-bottom: 1px solid #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/*Main*/
+.main {
+	color: #fff;
+}
+
+.main label {
+	font-weight: 300;
+}
+
+.main h1 {
+	font-size: 30px;
+  margin: 80px 0 20px;
+  padding: 0 0 0 10px;
+}
+
+.btn {
+	background: rgba(36,94,77,0.8);
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  margin: 20px 0 80px;
+}
+
+.form-control {
+	/*border: 1px solid #000;*/
+  border-radius: 0;
+}
+
+.main .container {
+	border-bottom: 1px solid #fff;
+}
+
+/*Footer*/
+.footer {
+	color: #fff;
+  
+}
+
+.footer ul {
+  padding-left: 0;
+  margin: 20px 0 80px;
+}
+
+.footer li {
+	display: inline;
+  margin-right: 20px;
+}
+
+@media (max-width: 960px) {
+  body {
+  	height: cover;
+  }
+}

@@ -1,0 +1,110 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg)no-repeat  top left;
+  background-size: cover;
+}
+
+.container {
+	max-width: 990px;
+}
+
+h1, p {cursor: default;}
+
+/*Header*/
+.header {
+	color: #fff;
+  padding-top: 30px;
+}
+
+.col-md-8 {
+	text-align: right;
+}
+
+.header li {
+  DISPLAY: inline;
+}
+
+.btn {
+	color: #ff1a1a;
+  padding: 8px 20px;
+  font-weight: 600;
+  
+}
+
+.btn:hover {
+	color: #ff1a1a;
+  background: #eee;
+}
+
+.active {
+	color: #fff;
+  background: #ff1a1a;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.header h1 {
+	font-size: 30px;
+  margin: 15px 0 0 0;
+}
+
+.header ul {
+	margin: 10px 0 0 0;
+}
+
+/*Main*/
+.main {
+	padding-top: 50px;
+}
+
+.thumbnail {
+  padding: 5px;
+  background: transparent;
+  border: transparent;
+}
+
+.thumbnail:hover {padding: 0;}
+
+/*Footer*/
+.footer li {
+  display: inline;
+  margin: 0 20px 0 0;
+}
+
+.footer a {
+  color: #000;
+	font-weight: 400;
+}
+
+.footer ul {
+	padding-left: 0;
+}
+
+.footer p {
+  text-align: right;
+	color: #000;
+}
+
+.footer {
+	padding: 50px 0 50px;
+}
+
+@media (max-width: 990px) {
+  html, body {
+  	background-size: 1000px;
+  }
+
+}
+
+@media (max-width: 611px) {
+  .col-md-4 {text-align: center;}
+
+  .btn {
+  	width: 100%;
+  }
+  
+  .header ul {
+  	padding: 0 50px;
+  }
+}

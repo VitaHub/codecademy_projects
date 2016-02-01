@@ -1,0 +1,142 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {	max-width: 1000px;}
+
+h1, h2, p {cursor: default;}
+
+/*Main*/
+.main {
+	height: 500px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 40px 0 0 0;
+  color: #fff;
+}
+
+.main li {	display: inline;}
+
+.main ul {
+	text-align: right;
+  margin-top: 38px;
+}
+
+.butn {
+	border-radius: 0;
+  font-size: 14px;
+  font-weight: 600; 
+  padding: 7px 30px;
+}
+
+.link {
+	background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.link:hover {	color: #fff;}
+
+.btn {
+	background-color: #FF003D;
+  color: #fff;
+}
+
+.main h1 {
+	font-size: 65px;
+	font-weight: 100;
+  margin-top: 60px;
+}
+
+.main p {
+	font-size: 20px;
+	font-weight: 100;
+  margin-top: 20px;
+} 
+
+/*Supporting*/
+.supporting-1 {
+	background-color: #161718;
+	color: #fff;
+  padding: 100px 0;
+}
+
+.supporting-2 {
+	background-color: #000;
+	color: #fff;
+  padding: 100px 0;
+}
+
+.supporting-3 {
+	background-color: #161718;
+	color: #fff;
+  padding: 100px 0;
+}
+
+/*Feature*/
+.feature {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) no-repeat center center;
+	background-size: cover;
+  padding: 150px 0;
+  color: #fff;
+  text-align: center;
+}
+
+/*Footer*/
+.footer {
+	padding: 50px 0;
+	background: #000;
+  color: #fff;
+}
+
+.footer h3 {font-size: 16px; }
+
+.footer ul {
+   padding-left: 0;
+  list-style: none;
+}
+
+.footer a {
+	color: #AAA49A;
+}
+
+@media (max-width: 500px) {
+  .main .col-md-6 {  	text-align: center;  }
+  
+  .main ul {
+  	text-align: center;
+    padding: 0;
+  }
+  
+  .main {
+  	text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+ .main h1 {
+	font-size: 45px;
+	font-weight: 100;
+  margin-top: 60px;
+	}
+
+.main p {
+	font-size: 14px;
+	font-weight: 100;
+  margin-top: 15px;
+	} 
+
+  .supporting-1, .supporting-2, .supporting-3  {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }  
+  
+  .footer {
+  	padding-left: 50px;
+  }
+
+  .
+  
+}

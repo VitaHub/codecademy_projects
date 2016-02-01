@@ -1,0 +1,179 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+  padding: 0 40px;
+}
+
+/*Main*/
+.main {
+	background: #000000;
+  color: #fff;
+}
+
+.main .log-in {
+  text-align: right;
+}
+
+.main li {
+	display: inline;
+}
+
+.main .btn {
+	border: 1px solid #0393FF;
+  padding: 7px 20px;
+  margin: 0 5px;
+  border-radius: 2px;
+  color: #0393FF;
+}
+
+.main .row {
+	/*border: 1px solid #fff;*/
+  padding-top: 30px;
+}
+
+.main .log-in .active {
+	border: none;
+  color: #fff;
+}
+
+.main .btn:hover {
+	color: #FFF;
+  background: #0393FF;
+}
+
+.main h1 {
+	text-align: center;
+  /*border: 1px dashed #fff;*/
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 300;
+  cursor: default;
+}
+
+.main p {
+	text-align: center;
+}
+
+.main .form-inline {
+	/*border: 1px solid #fff;*/
+  text-align: center;
+  margin: 80px 0 120px;
+}
+
+#search {
+	background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 400px;
+  margin-right: 30px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.form-inline button {
+	background: #000;
+}
+
+#search:hover {
+	border-bottom: 1px solid #0393FF;
+}
+
+#search:focus {
+	box-shadow: 0 0 0;
+  border-bottom: 1px solid #0393FF;
+}
+
+/*Supporting*/
+.supporting {
+  background-image: url(http://www.transparenttextures.com/patterns/diagmonds.png);
+  background-size: 141px 142px;
+  text-align: center;
+}
+
+.supporting .container {
+  padding: 50px 5px;
+}
+
+.supporting h2, p {
+	color: #fff;
+}
+
+.supporting p {
+	margin-bottom: 40px;
+}
+
+.supporting .thumbnail {
+	border: none;
+  background: transparent;
+  padding: 0;
+}
+
+/*Feature*/
+.feature {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg)no-repeat center center;
+  background-size: cover;
+  height: 380px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.feature h1 {
+	color: #0393FF;
+  font-weight: 300;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+/*Footer*/
+.footer {
+	background: #000;
+  padding: 50px 0;
+  color: #fff;
+  font-weight: 200;
+}
+
+.footer ul {
+	color: #0393FF;
+  padding-left: 0;
+  list-style: none;
+}
+
+@media (max-width: 500px) {
+  .main h1 {
+  	font-size: 40px;
+  }
+  
+  .main .col-md-6 {
+  	text-align: center;
+  }
+  
+  .log-in .btn {
+  	width: 45%;
+  }
+  
+  .main ul {
+  	margin-top: 20px;
+    padding: 0;
+  }
+  
+  .feature {
+  	padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  #search {
+  	width: 100%;
+  }
+  
+} 

@@ -1,0 +1,14 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.about-btn {
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.about-btn:hover, .about-btn:focus {
+color: #0393ff;
+text-decoration: none;
+}

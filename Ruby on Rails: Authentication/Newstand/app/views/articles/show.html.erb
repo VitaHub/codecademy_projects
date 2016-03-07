@@ -6,7 +6,11 @@
     <p class="article_content"><%= @article.body %></p>
 
     <!-- Your code here -->
+	<% if current_user.author? && current_user.first_name+' '+current_user.last_name == @article.author %>
+        <a href='<%= edit_article_path(@article)%>'><div class='Linko'>Edit</div></a>
+        <div style="height: 3px;"></div>
+        <a href='<%= del_article_path %>' data-method='delete' rel="nofollow"><div class='Linko'>Delete</div></a>
+    <% end %>
 
-    
   </div>
 </div>

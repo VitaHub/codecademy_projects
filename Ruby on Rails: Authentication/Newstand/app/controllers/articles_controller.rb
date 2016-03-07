@@ -2,6 +2,8 @@ class ArticlesController < ApplicationController
    
 
    before_action :require_user, except: :index
+
+   before_action :require_author, only: [:edit, :update, :destroy]
      
   def index
     @articles = Article.all
@@ -26,7 +28,11 @@ class ArticlesController < ApplicationController
   end
  
   def edit
-    @article = Article.find(params[:id])
+    if current_user.first_name+' '+current_user.last_name == Article.find(params[:id]).author
+      @article = Article.find(params[:id])
+    else
+      redirect_to article_path
+    end
   end
 
   def update

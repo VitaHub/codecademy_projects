@@ -1,0 +1,15 @@
+<div class="profile">
+  <div class="container">
+    
+    <!-- Your form here -->
+    	<%= form_for(@user) do |f| %>
+    		<%= f.text_field :first_name, :placeholder => @user.first_name, :disabled => true %>
+    		<%= f.text_field :last_name, :placeholder => @user.last_name, :disabled => true %>
+    		<%= f.email_field :email, :placeholder => @user.email, :disabled => true %>
+            <%= f.text_field :role, :placeholder => @user.role, :disabled => true %>
+            <% if current_user == @user %>
+                <a href='<%= edit_profile_path(@user)%>'><div class='Linko'>Edit</div></a>
+            <% end %>
+    	<% end %> 
+  </div>
+</div>

@@ -145,12 +145,12 @@ body {
 }
 
 /*      FORMS     */
-.login .container, .signup .container, .update-article .container {
+.login .container, .signup .container, .update-article .container, .profile .container {
   width: 600px;
   margin: 0 50px 50px;
 }
 
-form input, form textarea {
+form input, form textarea{
   border: 0;
   border-bottom: 2px solid transparent;
   font-family: 'Roboto Slab', serif;
@@ -169,17 +169,38 @@ form input:focus, form textarea:focus {
   transition: border-bottom 1s;
 }
 
-form input.btn-submit {
+form input.btn-submit{
   width: 100%;
 }
 
-form input.btn-submit:focus {
+form input.btn-submit:focus{
   border-bottom: 2px solid transparent;
 }
 
 form textarea {
   min-height: 400px;
 }
+
+.Linko {
+  font-size: 24px;
+  font-weight: 300; 
+  padding: 6px 20px;
+  background: rgba(255,255,255,0.25);
+  color: #282828;
+  display: block;
+  min-width: 80px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 1s;
+}
+
+.Linko:hover {
+  background: rgba(255,255,255,1);
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.profile a {text-decoration: none;}
 
 /**********    
   MEDIA QUERIES    

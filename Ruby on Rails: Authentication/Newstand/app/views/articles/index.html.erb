@@ -12,5 +12,9 @@
       <p class="article_content"><%= truncate(article.body , :length => 140) %></p>
     </div>
     <% end %>
+    <% if current_user %>
+      <% if current_user.role == 'author' %>
+        <a href='<%= new_article_path %>' style="text-decoration: none;"><div class='Linko'>New post</div></a>
+    <% end %><% end %>
   </div>
 </div>

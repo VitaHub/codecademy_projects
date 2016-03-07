@@ -7,6 +7,7 @@
     		<%= f.text_field :last_name, :placeholder => 'Last name' %>
     		<%= f.email_field :email, :placeholder => 'email@example.com' %>
     		<%= f.password_field :password, :placeholder => 'password' %>
+            <%= f.text_field :role, :value => 'author' %>
     		<%= f.submit 'Sign Up', class: 'btn-submit' %>
     	<% end %> 
   </div>
